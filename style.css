@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-image: url(https://images4.alphacoders.com/100/thumb-1920-1006265.jpg);
+    background-size: cover;
+  }
+  .icono-menu {
+    padding-left: 15px;
+  }
+  
+  .barra-nav ul li a {
+    color: rgb(250, 250, 250);
+    text-decoration: none;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .barra-nav {
+    background-color: rgb(100, 63, 185);
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+  }
+  .barra-nav ul {
+    display: flex;
+    float: left;
+    align-items: center;
+  }
+  .barra-nav ul li {
+    position: relative;
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+  }
+  .barra-nav ul li ul {
+    display: none;
+    position: absolute;
+    left: -18px;
+    background-color: rgb(100, 63, 185);
+    border-radius: 25px;
+    z-index: 2;
+  }
+  .barra-nav ul li:hover ul {
+    display: block;
+  }
+  .barra-nav ul li ul li {
+    width: 100%;
+  }
+  .barra-nav ul li ul li a {
+    white-space: nowrap;
+    line-height: unset;
+  
+    margin: 2rem 4rem 2rem 20px;
+  }
+  .icono-menu a i {
+    position: relative;
+    right: 10px;
+  }
+  .barra-nav ul li ul li a:hover {
+    transform: scale(1.2);
+    color: hsla(0, 0%, 100%, 0.5);
+  }
+  .TomaDeci {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+  }
+  .Decision {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    position: absolute;
+    top: 10px;
+    color: white;
+    margin: 1rem;
+    border: solid rgb(100, 63, 185);
+    border-radius: 25px;
+  }
+  p {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    margin-left: 30px;
+    font-size: 20px;
+  }
+  .cuadro {
+    display: flex;
+    font-weight: 700;
+    position: relative;
+    top: 160px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin: 1rem;
+  }
+  .imagen1 {
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 20px;
+  }
+  .imagen2 {
+    width: 400px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 150px;
+  }
+  .imagen3 {
+    width: 300px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 120px;
+  }
+  .conte1 {
+    border: solid rgb(100, 63, 185);
+    border-radius: 25px;
+    margin: 1rem;
+  }
+  h3 {
+    margin-top: 20px;
+    padding: 1rem;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  .video {
+    position: relative;
+    top: 150px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin: 1rem;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  .vid {
+    border-radius: 20px;
+  }
+  .pasos {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    position: relative;
+    top: 180px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    border: solid rgb(100, 63, 185);
+    border-radius: 20px;
+  }
+  h4 {
+    padding: 1rem;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 18px;
+    text-decoration-line: underline;
+  }
+  .imagen4 {
+    border-radius: 20px;
+  
+    position: absolute;
+    left: 88%;
+    bottom: 390px;
+  }
+  .sec3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-top: -10px;
+  }
+  .imagen5 {
+    border-radius: 20px;
+    position: absolute;
+    left: 88%;
+    bottom: 20%;
+  }
+  .imagen6 {
+    width: 200px;
+    border-radius: 20px;
+    position: absolute;
+    left: 70%;
+    bottom: 1%;
+  }
+  .bibliografias {
+    display: flex;
+    position: relative;
+  
+    align-items: center;
+    top: 150px;
+    padding: 1rem;
+  }
+  .letra {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+  }
+  .imagen4:hover {
+    transform: scale(1.2);
+  }
+  .imagen5:hover {
+    transform: scale(1.2);
+  }
+  .imagen6:hover {
+    transform: scale(1.2);
+  }
+  h4:hover {
+    color: hsla(0, 0%, 100%, 0.5);
+  }
+  h3:hover {
+    color: hsla(0, 0%, 100%, 0.5);
+  }
+  h1:hover {
+    color: hsla(0, 0%, 100%, 0.5);
+  }
+  h2{
+    padding-left: 1rem;
+  }
